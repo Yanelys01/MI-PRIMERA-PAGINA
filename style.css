@@ -1,0 +1,244 @@
+body {
+  background-color: whitesmoke;
+  margin: 60px 200px 60px 200px;
+  font-family: lucida;
+}
+
+.logo {
+  margin: 0 auto;
+}
+.logoimagen {
+  width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+nav {
+  background-color: whitesmoke;
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+}
+
+.barradenavegacion {
+  display: inline-flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion {
+  padding: 10px 60px 10px 60px;
+}
+
+.navegacion:hover {
+  background-color: bisque;
+}
+
+.navegacion a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+}
+
+.parallax {
+  background-image: url(../imagenes/RIHANNA\ 1.jpg);
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.tituloparallax h2 {
+  font-size: 80px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+
+.parrafoparallax {
+  display: flex;
+  border: 2px solid whitesmoke;
+  justify-content: center;
+}
+
+.parrafoparallax:hover {
+  background-color: bisque;
+  opacity: 0.7;
+}
+
+.parrafoparallax a {
+  font-size: 25px;
+  color: coral;
+  font-weight: 400;
+  padding: 10px 30px;
+  margin: 0;
+  text-decoration: none;
+}
+
+.informacion {
+  display: inline-flex;
+}
+
+.informacion p {
+  color: black;
+  max-width: 35%;
+  margin: 1px;
+  align-self: center;
+  padding-left: 100px;
+  line-height: 23px;
+}
+
+.titulorihanna {
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+  display: inline-flex;
+  padding: 10px;
+}
+
+.informacion img {
+  width: 330px;
+  height: 500px;
+  margin: auto;
+}
+
+.containermusic {
+  font-family: "kalam", cursive;
+  letter-spacing: 5px;
+  line-height: 3px;
+  text-align: center;
+}
+
+.containerMUSIC h2 {
+  font-family: "kalam", cursive;
+  margin: 150px;
+  font-size: 0.8cm;
+  color: black;
+  font-weight: 700px;
+  text-align: center;
+}
+.container {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.container .card {
+  width: 300px;
+  height: 500px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px black;
+  overflow: hidden;
+  margin: 0 10px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px black;
+}
+
+.container .card img {
+  width: 295px;
+  height: 350px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+  color: black;
+}
+
+.container .card p {
+  padding: 0;
+  font-size: 12px;
+  font-weight: 200;
+  color: black;
+}
+
+.container a {
+  font-weight: 500;
+  text-decoration: none;
+  color: chocolate;
+}
+
+.videos{
+margin 50px 0px 0px 0px;
+
+
+
+}
+
+.imagensection{
+display: flex;
+justify-content: center;
+margin-bottom: 50px;
+
+}
+
+.imagensection img {
+width:500px;
+height: 300px;
+
+
+}
+
+.iframeprincipal{
+display: flex;
+justify-content: center;
+
+
+}
+
+.iframes{
+
+    display: flex;
+    justify-content: space-around;
+padding:10px;
+
+
+}
+
+.final{
+    margin-top:100px;
+background-color: antiquewhite;
+min-height: 100px;
+display:flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.final p{
+
+text-align: center;
+font-weight: 400;
+color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
